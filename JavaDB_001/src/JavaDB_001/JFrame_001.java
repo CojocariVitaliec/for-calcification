@@ -37,7 +37,6 @@ public class JFrame_001 extends javax.swing.JFrame {
    }
         
 
- // get a list of users from mysql database
    public ArrayList<Users> getUsersList()
    {
        ArrayList<Users> usersList = new ArrayList<Users>();
@@ -62,7 +61,7 @@ public class JFrame_001 extends javax.swing.JFrame {
        return usersList;
    }
    
-   // Display Data In JTable
+   
    
    public void Show_Users_In_JTable() 
    {
